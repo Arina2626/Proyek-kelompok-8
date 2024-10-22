@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: normal;
+    color:darkgoldenrod;
+}
+
+body{
+    background:beige;
+    border:5px solid black;
+    border-radius: 10px; 
+}
+
+ul{
+    list-style-type: none;
+    background-color:gold ;
+    display:flex;
+}
+
+li{
+    display:inline;
+    padding:25px;
+}
+
+img{display:block;
+    margin:auto;
+} 
+
+p.paragraf-1 {
+    color:aquamarine;
+}

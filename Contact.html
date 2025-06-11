@@ -9,54 +9,72 @@
 
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-image: url('images/background.jpeg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            color: #000;
-        }
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000;
+}
 
-        header {
-            background-color: blueviolet;
-            padding: 1.3rem 0;
-            text-align: center;
-        }
+header {
+    background-color: blueviolet;
+    padding: 1.3rem 0;
+    text-align: center;
+    color: white;
+}
 
-        h1 {
-            font-size: 100px;
-            color: black;
-            text-align: center;
-        }
+h1 {
+    font-size: 60px;
+    margin: 0.5em 0;
+}
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            background-color: rgba(255, 255, 255, 0.7);
-            overflow: hidden;
-            text-align: center;
-        }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
 
-        nav ul li {
-            display: inline-block;
-            margin: 0 15px;
-        }
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
 
-        nav ul li a {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-            font-size: 18px;
-        }
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
 
-        marquee {
-            font-size: 20px;
-            font-weight: bold;
-            color: darkred;
-        }
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 10s linear infinite;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 0;
+    text-align: center;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+       
     </style>
 </head>
 

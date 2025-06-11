@@ -1,31 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background: #0D0D2B;
+    border: 5px solid #1E1E3F;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    color: #E5E5E5; 
+}
+
 h1 {
     text-align: center;
-    font-family:sans-serif;
     font-weight: normal;
-    color:rgb(236, 208, 138);
+    color: #8BE9FD;
 }
 
-body{
-    background:rgb(166, 83, 214);
-    border:5px solid black;
-    border-radius: 10px; 
-}
-
-ul{
+ul {
     list-style-type: none;
-    background-color:rgb(108, 120, 224) ;
-    display:flex;
+    background-color: #1E1E3F;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
-li{
-    display:inline;
-    padding:25px;
+li {
+    padding: 20px 30px;
 }
 
-img{display:block;
-    margin:auto;
-} 
+li a {
+    color: #E5E5E5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #FF79C6;
+}
 
 p.paragraf-1 {
-    color:black;
+    color: #C3C3C3;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(139, 233, 253, 0.3);
 }
